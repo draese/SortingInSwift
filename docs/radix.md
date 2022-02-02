@@ -43,4 +43,6 @@ RadixSort is a variation of CountingSort.  Instead of considering the full range
 The time complexity of this algorithm is O(d(n + b)) with b being a constant (here 10 but this could for example also be 255 for byte-comparison), this algorithm essentially scales very well for large n and small d (number of digits) in which case it can compete with the O(n log n) time complexity of QuickSort or MergeSort. The value of (b) is becoming a neglectable  constant and for small (d) the time complexity for large (n) essentially becomes O(n). As CountingSort is table, RadixSort is inherently stable as well.
 
 ---
-Description of the algorithm can be found [here on Youtube](https://youtu.be/XiuSW_mEn7g).
+Description of the algorithm can be found [here on Youtube](https://youtu.be/XiuSW_mEn7g). 
+
+Back to [overview](../README.md).
